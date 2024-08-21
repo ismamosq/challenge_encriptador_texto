@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de textos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="presentacion_logalura" src="./assets/logo-alura.png" alt="logo de alura latam">
+        <h1 class="titulo_principal">¡BIENVENIDO, ENCRIPTA TU TEXTO!</h1>
+    </header>
+    <main class="presentacion_main">
+        <section class="presentacion_seccion1">
+            <h2 class="texto_instrucciones"><strong>Instrucciones:</strong> Ingresa el texto que quieres encriptar, solo minúsculas y sin caracteres especiales (!"#$%&/()=?¡._;") </h2>
+            <div class="div_textarea">
+                <textarea name="textarea1" rows="20" id="textoUsuario" placeholder="Ingrese el mensaje o texto aquí" class="textarea_presentacion"></textarea>
+            </div>
+            <div class="presentacion_botones">
+                <button type="submit" id="idEncriptarTexto" class="botones_presentacion">Encriptar texto</button>
+                <button type="submit" id="idDesencriptarTexto" class="botones_presentacion">Desencriptar texto</button>
+            </div>
+        </section>
+        <section class="presentacion_seccion2">
+                    <div class="contenido_imagen">
+                        <img class="imagen_robotnotexto" src="./assets/robot_no_mensajeencontrado336.jpeg" alt="robot buscando informacion en computadora">
+                    </div>
+                    <div class="div_texto_noencontrado">
+                        <textarea name="textarea2" id="textoResultante" rows="20" placeholder="Ningún texto o mensaje encontrado" class="textarea_textodesencriptado"></textarea> 
+                    </div>
+                    <div class="div_botoncopiar">
+                        <button type="submit" id="idCopiarTexto" class="boton_copia_presentacion">Copiar</button>
+                    </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Creado por © Ismael Mosqueda 2024</p>
+        <a class="logo_presentacion" href="https://github.com/ismamosq">
+            <img src="/assets/logogithub.png">
+        </a>
+    </footer>
+    <script src="app.js"></script>
+    </body>
+</html>
